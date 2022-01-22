@@ -1,0 +1,129 @@
+.content2{
+    display: flex;
+    margin: 0 auto;
+    background-color: #EDEDED ;
+    max-width: 990px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    margin-top: 25px;
+
+}
+.content2 .input1{
+    margin: 0 auto;
+
+}
+.input1 input{
+    width: 450px;
+}
+
+
+*{
+    box-sizing: border-box;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    max-width:990px;
+    flex-wrap: wrap;
+    margin:0 auto;
+  }
+  
+  .container div{
+    padding:15px;
+  }
+  
+  .col-12 {
+    flex: 1 0 100%;
+    width: 100%;
+  }
+  
+  .col-6 {
+    flex: 1 0 50%;
+    width: 50%;
+  }
+  
+  .col {
+    flex: 1 0 0%;
+    max-width: 100%;
+  }
+  
+  .col-auto {
+    display: flex;
+    flex: 1 0 50%;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .col-auto button{
+    width: 45%;
+    height: 44px;
+    background-color: rgb(20, 141, 221);
+    color: whitesmoke;
+    text-align: center;
+    border-style: none;
+    border-radius: 15px;
+
+  }
+
+  .col-auto button:hover{
+      cursor: pointer;
+      background-color: blue;
+  }
+
+  
+  
+  .align-end{
+    align-self: flex-end
+  }
+
+  
+
+  .col-bt {
+    width: 450px;
+    justify-content: center;
+    display: flex;
+    
+
+      
+  }
+
+  .col-bt button{
+      background-color: #0A1633;
+      color: white;
+      padding: 15px;
+      border-style: none;
+      border-radius: 15px;
+      width: 125px;
+
+  }
+  .col-bt button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+
+  }
+
+  input{
+      height: 44px;
+      border-style: none;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+
+  }
+
+  label{
+      font-weight: bold;
+  }
+  
+
